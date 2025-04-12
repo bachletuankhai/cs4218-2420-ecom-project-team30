@@ -5,7 +5,6 @@ import toast from 'react-hot-toast';
 import axios from 'axios';
 import CategoryForm from '../../components/Form/CategoryForm';
 import { Modal } from 'antd';
-import { da, th } from 'date-fns/locale';
 const CreateCategory = () => {
   const [categories, setCategories] = useState([]);
   const [name, setName] = useState('');
